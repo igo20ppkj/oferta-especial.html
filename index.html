@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ebook Completo de Churrasco</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f2ec url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') no-repeat center fixed;
+      background-size: cover;
+      color: #333;
+    }
+    header {
+      background: rgba(0,0,0,0.65);
+      height: 85vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      position: relative;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      background: rgba(178,34,34,0.8);
+      padding: 25px 40px;
+      border-radius: 15px;
+      z-index: 1;
+      position: relative;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    }
+    section {
+      max-width: 1100px;
+      margin: 60px auto;
+      padding: 40px;
+      background: rgba(255,255,255,0.95);
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
+    h2 {
+      color: #b22222;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 2rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      line-height: 1.9rem;
+      font-size: 1.2rem;
+    }
+    ul li::before {
+      content: "🥩 ";
+    }
+    .bonus, .price, .cta {
+      text-align: center;
+      margin: 50px 0;
+    }
+    .bonus {
+      background: #fff5ef;
+      padding: 30px;
+      border: 2px solid #b22222;
+      border-radius: 15px;
+      font-size: 1.1rem;
+      box-shadow: inset 0 0 15px rgba(255,69,0,0.2);
+    }
+    .price h2 {
+      font-size: 2.2rem;
+    }
+    .price p {
+      font-size: 1.4rem;
+    }
+    .urgency {
+      color: #ff4500;
+      font-weight: bold;
+      font-size: 1.3rem;
+      margin-top: 15px;
+      animation: pulse 1.2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.1); opacity: 0.6; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+    .cta a {
+      display: inline-block;
+      background: linear-gradient(45deg, #ff4500, #b22222);
+      color: #fff;
+      padding: 20px 50px;
+      font-size: 1.5rem;
+      border-radius: 50px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    }
+    .cta a:hover {
+      transform: scale(1.08);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    }
+    footer {
+      background: #1e1e1e;
+      color: #fff;
+      text-align: center;
+      padding: 25px;
+      margin-top: 60px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ebook Completo de Churrasco<br>Para Iniciantes e Experientes</h1>
+  </header>
+
+  <section>
+    <h2>🔥 O que você vai encontrar</h2>
+    <ul>
+      <li>Cortes e preparos ideais</li>
+      <li>Temperos e marinadas irresistíveis</li>
+      <li>Técnicas de grelhar e selar</li>
+      <li>Churrasco vegetariano e acompanhamentos</li>
+      <li>Molhos e condimentos</li>
+      <li>Segredos dos profissionais</li>
+      <li>Bebidas e harmonização</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>👨‍🍳 Para quem é este ebook?</h2>
+    <p style="text-align:center; font-size:1.2rem;">👉 Iniciantes que querem aprender do zero<br>
+       👉 Churrasqueiros experientes em busca de novas técnicas<br>
+       👉 Quem deseja surpreender amigos e família</p>
+  </section>
+
+  <section>
+    <h2>📖 Como funciona?</h2>
+    <p style="text-align:center; font-size:1.2rem;">📱 Ebook digital em PDF<br>
+       📖 Conteúdo prático com imagens<br>
+       ⚡ Acesso imediato após a compra</p>
+  </section>
+
+  <div class="bonus">
+    <h2>🎁 Bônus Exclusivos</h2>
+    <p>✔️ Lista de compras inteligente<br>
+       ✔️ Receitas rápidas de acompanhamentos</p>
+  </div>
+
+  <div class="price">
+    <h2>💲 Oferta Especial</h2>
+    <p>De <s>R$29,90</s> por apenas <strong style="color:#b22222; font-size:2.2rem;">R$14,99</strong></p>
+    <p class="urgency">⚡ Oferta por tempo limitado – aproveite agora!</p>
+  </div>
+
+  <div class="cta">
+    <a href="https://pay.kirvano.com/042fad1c-c751-46e0-b072-8ba93d17ac91" target="_blank">🔥 QUERO MEU EBOOK AGORA</a>
+    <p style="margin-top:12px; font-size:1rem; color:#444;">Garantia de satisfação ou seu dinheiro de volta!</p>
+  </div>
+
+  <footer>
+    <p>© 2025 Ebook Completo de Churrasco. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
